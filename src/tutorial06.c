@@ -65,7 +65,7 @@ void next();
 // Once you have written this function uncomment the second printf()
 // statement in main() such that its operation can be tested.
 
-void printrand(uint32_t * ptr) {
+void print_rand(uint32_t * ptr) {
     uint32_t newVar = *ptr;
     uint32_t inspectedVal = newVar & 0b11;
 
