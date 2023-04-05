@@ -65,7 +65,7 @@ void next();
 // Once you have written this function uncomment the second printf()
 // statement in main() such that its operation can be tested.
 
-void print_rand(uint32_t * ptr) {
+void printrand(uint32_t * ptr) {
     uint32_t newVar = *ptr;
     uint32_t inspectedVal = newVar & 0b11;
 
@@ -158,17 +158,12 @@ int main(void) {
     // Tip: Recall that the unary operator "&" can be used to get a
     //      reference (pointer) to some data.
 
-    for (int i = 0; 1 < 32; i++){
+    printf("Ex 6.4: ");
+    // Write your code for Ex 6.4 below this line. 
+      for (int i = 0; 1 < 32; i++){
         next();
         print_rand(&state);
     }
-
-    printf("Ex 6.4: ");
-    // Write your code for Ex 6.4 below this line. 
-
-
-
-
     // Write your code for Ex 6.4 above this line. 
     printf("\n");
 
